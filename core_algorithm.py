@@ -4,9 +4,9 @@ import itertools
 names = ['A', 'B', 'C', 'D', 'E', 'F']
 
 # 每个人花费的金额
-costs = [2, 1, 1, 1, 1, 2]
+costs = [2, 10, 1, 1, 1, 2]
 
-# resort
+# resort, can be commented
 name_cost_pairs = list(zip(names, costs))
 name_cost_pairs.sort(key=lambda x: x[1])
 names, costs = zip(*name_cost_pairs)
